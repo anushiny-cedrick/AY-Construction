@@ -1,4 +1,5 @@
 import React from 'react'
+import "./OurServices.css"
 
 const OurServices = () => {
 
@@ -50,7 +51,7 @@ const OurServices = () => {
     return (
         <div>
             <div style={{ padding: '20px', textAlign: 'center' }}>
-                <h1 style={{ marginBottom: '20px' }}>Our Services</h1>
+                <h1 style={{ marginBottom: '20px', color: '#002366' }}>Our Services</h1>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px' }}>
                     {services.map((service, index) => (
                         <div key={index} style={{ border: '1px solid #ddd', borderRadius: '8px', padding: '10px', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
@@ -61,7 +62,7 @@ const OurServices = () => {
                     ))}
                 </div>
 
-                <h2 style={{ marginTop: '40px' }}>Design Software We Use</h2>
+                <h2 style={{ marginTop: '40px', color: '#002366' }}>Design Software We Use</h2>
                 <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '20px', marginTop: '20px' }}>
                     {softwareList.map((software, index) => (
                         <div key={index} style={{ textAlign: 'center' }}>
