@@ -6,7 +6,7 @@ const Hero = () => {
         <div>
             <div className='heroSection'>
                 <h3>Welcome to AY Construction <br /> Building Your Vision, One Brick at a Time.</h3>
-                <p>With over 5 years of experience, we specialize in residential and commercial construction</p>
+                <p>At AY Construction, we specialize in delivering high-quality construction services tailored to your needs. <br /> With years of experience, we bring your vision to life</p>
                 <button><a href="/services">Explore Our Services.</a></button>
             </div>
         </div>

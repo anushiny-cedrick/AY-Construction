@@ -8,14 +8,17 @@
 }
 
 .heroSection h3 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: #002366;
     margin-bottom: 20px;
 
 }
 
-.heroSection p {}
+.heroSection p {
+    font-style: italic;
+    font-weight: 600;
+}
 
 .heroSection button {
     margin-top: 20px;

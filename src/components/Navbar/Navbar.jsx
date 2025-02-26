@@ -6,11 +6,11 @@ const Navbar = () => {
             <a className='logo' href="/home">AY CONSTRUCTION</a>
 
             <ul className='navbar-links'>
-                <li><a href="/about">HOME</a></li>
-                <li><a href="/about">ABOUT US</a></li>
-                <li><a href="/about">SERVICES</a></li>
-                <li><a href="/about">PROJECST</a></li>
-                <li><a href="/about">CONTACT US</a></li>
+                <li><a href="/about">Home</a></li>
+                <li><a href="/about">About US</a></li>
+                <li><a href="/about">Services</a></li>
+                <li><a href="/about">Projects</a></li>
+                <li><a href="/about">Contact US</a></li>
             </ul>
 
 
