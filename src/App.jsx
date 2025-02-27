@@ -12,6 +12,7 @@ import Home from './components/Pages/Homepages/Home'
 import ProjectGallery from './components/ProjectCards/ProjectGallery'
 import ProjectPage from './components/Pages/ProjectPage/ProjectPage'
 import ContactForm from './components/Contact/ContactForm'
+import AboutUs from './components/AboutUs/AboutUs'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/projects" element={<ProjectGallery />} />
         <Route path="/projects/:id" element={<ProjectPage />} />
         <Route path="/contact" element={<ContactForm />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
       <Footer />
 
