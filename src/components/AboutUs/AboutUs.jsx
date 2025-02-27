@@ -1,6 +1,7 @@
 // src/components/AboutUs.jsx
 import React from "react";
 // import teamImage from "../assets/team.jpg";
+import CEOImage from "../../assets/CEOImage.png";
 import "./AboutUs.css";
 
 const AboutUs = () => {
@@ -28,15 +29,27 @@ const AboutUs = () => {
                 </p>
                 <h3>Our Values</h3>
                 <ul>
-                    <li>Quality: We never compromise on quality.</li>
-                    <li>Integrity: We build trust through honesty and transparency.</li>
-                    <li>Innovation: We embrace new technologies and methods.</li>
-                    <li>Sustainability: We are committed to eco-friendly practices.</li>
+                    <li> <span >Quality </span>: We never compromise on quality.</li>
+                    <li> <span>Integrity</span>: We build trust through honesty and transparency.</li>
+                    <li> <span>Innovation </span>: We embrace new technologies and methods.</li>
+                    <li> <span>Sustainability </span>: We are committed to eco-friendly practices.</li>
                 </ul>
             </div>
-            {/* <div className="about-image">
-                <img src={teamImage} alt="AY Construction Team" />
-            </div> */}
+            <div className="team-section">
+                <h3>TEAM</h3>
+                <div className="about-image">
+                    <div >
+                        <img src={CEOImage} alt="CEO" />
+                        <p>THE CEO OF AY CONTRUCTION</p>
+                    </div>
+                    <div >
+                        <img src={CEOImage} alt="Team" />
+                        <p>The Team of AY Contruction</p>
+                    </div>
+
+                </div>
+
+            </div>
         </section>
     );
 };
