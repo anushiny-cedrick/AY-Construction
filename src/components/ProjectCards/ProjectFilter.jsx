@@ -1,5 +1,6 @@
 // src/components/ProjectFilter.js
 import React, { useState } from "react";
+import "./Project.css"
 
 const ProjectFilter = ({ onFilter }) => {
   const [category, setCategory] = useState("All");

@@ -9,6 +9,8 @@ import OurServices from './components/ServicesSection/OurServices'
 import Footer from './components/Footer/Footer'
 import Contact from './components/Contact/Contact'
 import Home from './components/Pages/Homepages/Home'
+import ProjectGallery from './components/ProjectCards/ProjectGallery'
+import ProjectPage from './components/Pages/ProjectPage/ProjectPage'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path="/projects" element={<ProjectGallery />} />
+        <Route path="/projects/:id" element={<ProjectPage />} />
       </Routes>
       <Footer />
 

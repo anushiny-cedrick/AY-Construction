@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectFilter from "./ProjectFilter";
-import projects from "../data/projects";
+import projects from "../../Data/projects";
 
 const ProjectGallery = () => {
     const [filteredProjects, setFilteredProjects] = useState(projects);
