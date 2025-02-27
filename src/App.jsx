@@ -7,10 +7,11 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/HeroSection/Hero'
 import OurServices from './components/ServicesSection/OurServices'
 import Footer from './components/Footer/Footer'
-import Contact from './components/Contact/Contact'
+import Contact from './components/Contact/ContactForm'
 import Home from './components/Pages/Homepages/Home'
 import ProjectGallery from './components/ProjectCards/ProjectGallery'
 import ProjectPage from './components/Pages/ProjectPage/ProjectPage'
+import ContactForm from './components/Contact/ContactForm'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
         <Route path="/projects/:id" element={<ProjectPage />} />
+        <Route path="/contact" element={<ContactForm />} />
       </Routes>
       <Footer />
 
