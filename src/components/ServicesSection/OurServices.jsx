@@ -1,6 +1,10 @@
 import React from 'react'
 import "./OurServices.css"
-
+import autocad from "../../assets/Autocad-Logo.png"
+import revit from "../../assets/revit-logo.png"
+import skeup from "../../assets/sketupLogo.png"
+import lumion from "../../assets/lumion.png"
+import max_3d from "../../assets/3ds-max.png"
 const OurServices = () => {
 
     const images = {
@@ -13,11 +17,11 @@ const OurServices = () => {
 
     // Design software used in designs  
     const softwareList = [
-        { name: "AutoCAD", logo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Autodesk_AutoCAD_Logo.svg" },
-        { name: "Revit", logo: "https://upload.wikimedia.org/wikipedia/en/5/59/Autodesk_Revit_logo.svg" },
-        { name: "SketchUp", logo: "https://upload.wikimedia.org/wikipedia/commons/5/54/SketchUp_logo.svg" },
-        { name: "Lumion", logo: "https://www.lumion.com/wp-content/themes/lumion/assets/images/lumion/logo-white.svg" },
-        { name: "3ds Max", logo: "https://upload.wikimedia.org/wikipedia/commons/8/83/Autodesk_3ds_Max_logo.svg" },
+        { name: "AutoCAD", logo: autocad },
+        { name: "Revit", logo: revit },
+        { name: "SketchUp", logo: skeup },
+        { name: "Lumion", logo: lumion },
+        { name: "3ds Max", logo: max_3d },
     ];
 
     const services = [
