@@ -5,14 +5,18 @@ import revit from "../../assets/revit-logo.png"
 import skeup from "../../assets/sketupLogo.png"
 import lumion from "../../assets/lumion.png"
 import max_3d from "../../assets/3ds-max.png"
+import Residentail from "../../assets/Residential.jpg"
+import modern from "../../assets/modern.jpg"
+import landscaping from "../../assets/Landscaping.jpeg"
+import Remodeling from "../../assets/Remodeling.jpg"
 const OurServices = () => {
 
     const images = {
-        residential: 'https://images.unsplash.com/photo-1568605114967-9b1583b3c81a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg3M3wwfDF8c2VhcmNofDF8fHJlc2lkZW50aWFsJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTY3ODA3NzM0OA&ixlib=rb-4.0.3&q=80&w=400',
-        commercial: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg3M3wwfDF8c2VhcmNofDl8fGFncmVlfGVufDB8fHx8MTY3ODA3NzM2Mw&ixlib=rb-4.0.3&q=80&w=400',
+        residential: Residentail,
+        commercial: modern,
         projectManagement: 'https://images.unsplash.com/photo-1507754802495-d4dd61522411?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg3M3wwfDF8c2VhcmNofDV8fHByb2plY3QlMjBtYW5hZ2VtZW50fGVufDB8fHx8MTY3ODA3NzM4Nw&ixlib=rb-4.0.3&q=80&w=400',
-        remodeling: 'https://images.unsplash.com/photo-1616685829489-b98d81f54b0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg3M3wwfDF8c2VhcmNofDJ8fHJlbW9kZWxpbmclMjBhbmQlMjByZW5vdmF0aW9ufGVufDB8fHx8MTY3ODA3NzQwMA&ixlib=rb-4.0.3&q=80&w=400',
-        landscaping: 'https://images.unsplash.com/photo-1560185127-8e3509e2d9aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg3M3wwfDF8c2VhcmNofDEwfHxsYW5kc2NhcGV8ZW58MHx8fHwxNjc4MDc3NDA4&ixlib=rb-4.0.3&q=80&w=400',
+        remodeling: Remodeling,
+        landscaping: landscaping,
     };
 
     // Design software used in designs  
