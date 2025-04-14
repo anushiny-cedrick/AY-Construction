@@ -22,7 +22,7 @@ const projects = [
     {
         id: 3,
         title: "Landscaping Project",
-        image: "https://via.placeholder.com/400x300",
+        image: image1,
         description: "Beautiful outdoor spaces designed for relaxation.",
     },
 ];

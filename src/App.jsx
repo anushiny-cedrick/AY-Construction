@@ -13,6 +13,7 @@ import ProjectGallery from './components/ProjectCards/ProjectGallery'
 import ProjectPage from './components/Pages/ProjectPage/ProjectPage'
 import ContactForm from './components/Contact/ContactForm'
 import AboutUs from './components/AboutUs/AboutUs'
+import ProjectPage1 from './components/ProjectCards/ProjectPage1'
 
 function App() {
 
@@ -24,7 +25,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
-        <Route path="/projects/:id" element={<ProjectPage />} />
+        {/* <Route path="/projects/:id" element={<ProjectPage />} /> */}
+        <Route path="/projects/:id" element={<ProjectPage1 />} />
+
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/aboutus" element={<AboutUs />} />
       </Routes>

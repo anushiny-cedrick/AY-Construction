@@ -1,7 +1,7 @@
 // src/components/ProjectPage.js
 import React from "react";
 import { useParams } from "react-router-dom";
-import project from '../../../Data/projects'
+import projects from '../../../Data/projects'
 
 const ProjectPage = () => {
     const { id } = useParams();
