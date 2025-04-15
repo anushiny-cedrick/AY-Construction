@@ -1,4 +1,7 @@
 import React from 'react'
+import whatapp from "../../assets/whatapp.jpeg"
+import facebook from "../../assets/facebook.png"
+import instangram from "../../assets/instangram.jpeg"
 
 const Footer = () => {
     return (
@@ -6,14 +9,22 @@ const Footer = () => {
             <footer style={{ backgroundColor: '#002366', color: '#fff', padding: '20px 0', textAlign: 'center' }}>
                 <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 20px' }}>
                     <h2 style={{ margin: '0 0 10px' }}>Get in Touch</h2>
-                    <p style={{ margin: '5px 0' }}>Phone: (123) 456-7890</p>
-                    <p style={{ margin: '5px 0' }}>Email: info@yourcompany.com</p>
+                    <p style={{ margin: '5px 0' }}>Phone: (+237) 673-159-852</p>
+                    <p style={{ margin: '5px 0' }}>Email: yaniafuhnue@gmail.com</p>
 
                     <div style={{ margin: '20px 0' }}>
-                        <a href="https://www.facebook.com" style={{ color: '#fff', margin: '0 10px' }}>Facebook</a>
-                        <a href="https://www.linkedin.com" style={{ color: '#fff', margin: '0 10px' }}>LinkedIn</a>
-                        <a href="https://www.instagram.com" style={{ color: '#fff', margin: '0 10px' }}>Instagram</a>
-                        <a href="https://www.twitter.com" style={{ color: '#fff', margin: '0 10px' }}>Twitter</a>
+                        <a href="https://www.facebook.com" style={{ color: '#fff', margin: '0 10px' }}>
+                            <img className='rounded-[10px]' src={facebook} alt="facebook" width={30} height={30} />
+
+                        </a>
+                        <a href="https://www.whatapp.com" style={{ color: '#fff', margin: '0 10px' }}>
+                            <img src={whatapp} alt="whatapp" width={30} height={30} />
+
+                        </a>
+                        <a href="https://www.instagram.com" style={{ color: '#fff', margin: '0 10px' }}>
+                            <img src={instangram} width={30} height={30} alt="" />
+                        </a>
+
                     </div>
 
                     <div style={{ margin: '20px 0' }}>

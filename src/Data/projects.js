@@ -4,6 +4,11 @@ import house1 from "../assets/house1.jpg"
 import house2 from "../assets/house2.jpg"
 import house3 from "../assets/house3.jpg"
 import house4 from "../assets/house4.jpg"
+import bed from "../assets/bed.jpg"
+import bed1 from "../assets/bed1.jpg"
+import bed2 from "../assets/bed2.jpg"
+import bed3 from "../assets/bed3.jpg"
+import bed4 from "../assets/bed4.jpg"
 const projects = [
     //     {
     //         id: 1,
@@ -95,14 +100,14 @@ const projects = [
         status: "completed" // or "ongoing" with progress percentage
     },
     {
-        id: 1,
+        id: 2,
         title: "Modern Family Home",
         category: "Residential",
         location: "New York",
         year: 2023,
         description: "A 3-bedroom contemporary home with sustainable materials and smart home technology.",
-        image: house2,
-        images: [house1, house2, house3],
+        image: bed,
+        images: [bed, house2, house3],
         details: {
             size: "2,500 sq ft",
             budget: "$520,000",
@@ -122,7 +127,7 @@ const projects = [
         status: "completed"
     },
     {
-        id: 2,
+        id: 3,
         title: "Tech Campus Office Complex",
         category: "Commercial",
         location: "San Francisco",
@@ -149,7 +154,7 @@ const projects = [
         status: "completed"
     },
     {
-        id: 3,
+        id: 4,
         title: "Boutique Retail Center",
         category: "Retail",
         location: "Miami",
@@ -176,14 +181,14 @@ const projects = [
         status: "completed"
     },
     {
-        id: 4,
+        id: 5,
         title: "Urban High-Rise Renovation",
         category: "Renovation",
         location: "Chicago",
         year: 2024,
         description: "Complete modernization of a 1970s office tower into luxury apartments.",
-        image: house1,
-        images: [house1, house2, house1, house2, house3],
+        image: bed1,
+        images: [bed1, house2, house1, house2, house3],
         details: {
             size: "320,000 sq ft",
             budget: "$22 million",
@@ -204,14 +209,14 @@ const projects = [
         progress: 65
     },
     {
-        id: 5,
+        id: 6,
         title: "Elementary School Expansion",
         category: "Institutional",
         location: "Austin",
         year: 2023,
         description: "Addition of 12 new classrooms and STEM lab for growing school district.",
-        image: house3,
-        images: [house3, house4, house1, house2, house3],
+        image: bed3,
+        images: [bed3, house4, house1, house2, house3],
         details: {
             size: "28,000 sq ft",
             budget: "$6.8 million",
@@ -231,7 +236,7 @@ const projects = [
         status: "completed"
     },
     {
-        id: 6,
+        id: 7,
         title: "Lakeside Luxury Villas",
         category: "Residential",
         location: "Lake Tahoe",
@@ -259,14 +264,14 @@ const projects = [
         progress: 40
     },
     {
-        id: 7,
+        id: 8,
         title: "Downtown Parking Structure",
         category: "Municipal",
         location: "Seattle",
         year: 2022,
         description: "7-story parking garage with retail space and EV charging stations.",
-        image: house1,
-        images: [house1, house2],
+        image: bed2,
+        images: [bed2, house2],
         details: {
             size: "210,000 sq ft",
             budget: "$15 million",
@@ -286,14 +291,14 @@ const projects = [
         status: "completed"
     },
     {
-        id: 8,
+        id: 9,
         title: "Medical Office Building",
         category: "Healthcare",
         location: "Boston",
         year: 2023,
         description: "Specialized facility for orthopedic practice with outpatient surgery center.",
-        image: house1,
-        images: [house1],
+        image: bed4,
+        images: [bed],
         details: {
             size: "36,000 sq ft",
             budget: "$9.7 million",
