@@ -1,0 +1,342 @@
+/* Main Section */
+.round-the-clock-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #002366 0%, #001a4d 100%);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Header */
+.clock-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.clock-header h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.clock-header .highlight {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+.clock-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Main Content */
+.clock-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .clock-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Clock Visualization */
+.clock-visual {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.clock-face {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 8px solid #FFD700;
+    position: relative;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+}
+
+.clock-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: #FFD700;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.clock-hands {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+    background: white;
+}
+
+.hour-hand {
+    width: 30%;
+    height: 8px;
+    margin-top: -4px;
+    border-radius: 4px;
+    transform: rotate(30deg);
+}
+
+.minute-hand {
+    width: 40%;
+    height: 6px;
+    margin-top: -3px;
+    border-radius: 3px;
+    transform: rotate(120deg);
+}
+
+.second-hand {
+    width: 45%;
+    height: 3px;
+    margin-top: -1.5px;
+    background: #FF5252;
+    transform: rotate(270deg);
+    animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(270deg);
+    }
+
+    to {
+        transform: rotate(630deg);
+    }
+}
+
+.clock-number {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Position numbers around the clock */
+.number-1 {
+    transform: rotate(30deg) translateY(-90%);
+}
+
+.number-2 {
+    transform: rotate(60deg) translateY(-90%);
+}
+
+.number-3 {
+    transform: rotate(90deg) translateY(-90%);
+}
+
+.number-4 {
+    transform: rotate(120deg) translateY(-90%);
+}
+
+.number-5 {
+    transform: rotate(150deg) translateY(-90%);
+}
+
+.number-6 {
+    transform: rotate(180deg) translateY(-90%);
+}
+
+.number-7 {
+    transform: rotate(210deg) translateY(-90%);
+}
+
+.number-8 {
+    transform: rotate(240deg) translateY(-90%);
+}
+
+.number-9 {
+    transform: rotate(270deg) translateY(-90%);
+}
+
+.number-10 {
+    transform: rotate(300deg) translateY(-90%);
+}
+
+.number-11 {
+    transform: rotate(330deg) translateY(-90%);
+}
+
+.number-12 {
+    transform: rotate(360deg) translateY(-90%);
+}
+
+.pulse-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    border: 2px solid rgba(255, 215, 0, 0.5);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    z-index: -1;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0;
+    }
+}
+
+/* Service Features */
+.service-features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+@media (min-width: 768px) {
+    .service-features {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #FFD700;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.feature-icon {
+    font-size: 1.8rem;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.feature-card a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Emergency CTA */
+.emergency-cta {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.cta-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cta-content p {
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.cta-button.phone {
+    background: #FF5252;
+    color: white;
+}
+
+.cta-button.phone:hover {
+    background: #e53935;
+}
+
+.cta-button.contact {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.cta-button.contact:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .clock-header h2 {
+        font-size: 2.2rem;
+    }
+
+    .emergency-cta {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+    }
+}
