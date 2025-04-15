@@ -33,6 +33,7 @@ const Footer = () => {
                         <a href="/services" style={{ color: '#fff', margin: '0 10px' }}>Services</a>
                         <a href="/projects" style={{ color: '#fff', margin: '0 10px' }}>Projects</a>
                         <a href="/contact" style={{ color: '#fff', margin: '0 10px' }}>Contact</a>
+                        <a href="/internship" style={{ color: '#fff', margin: '0 10px' }}>Internship</a>
                     </div>
 
                     <div style={{ borderTop: '1px solid #444', padding: '10px 0', marginTop: '20px' }}>

@@ -14,6 +14,7 @@ import ProjectPage from './components/Pages/ProjectPage/ProjectPage'
 import ContactForm from './components/Contact/ContactForm'
 import AboutUs from './components/AboutUs/AboutUs'
 import ProjectPage1 from './components/ProjectCards/ProjectPage1'
+import InternshipSection from './components/Internship/InternshipSection'
 
 function App() {
 
@@ -28,7 +29,10 @@ function App() {
         {/* <Route path="/projects/:id" element={<ProjectPage />} /> */}
         <Route path="/projects/:id" element={<ProjectPage1 />} />
 
+
+        <Route path="/internship" element={<InternshipSection />} />
         <Route path="/contact" element={<ContactForm />} />
+
         <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
       <Footer />
