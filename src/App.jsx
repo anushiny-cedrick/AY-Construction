@@ -15,6 +15,7 @@ import ContactForm from './components/Contact/ContactForm'
 import AboutUs from './components/AboutUs/AboutUs'
 import ProjectPage1 from './components/ProjectCards/ProjectPage1'
 import InternshipSection from './components/Internship/InternshipSection'
+import Chatbot from './components/Chatbot/Chatbot'
 
 function App() {
 
@@ -27,14 +28,15 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path="/projects" element={<ProjectGallery />} />
         {/* <Route path="/projects/:id" element={<ProjectPage />} /> */}
+        <Route path="/services" element={<OurServices />} />
         <Route path="/projects/:id" element={<ProjectPage1 />} />
-
-
         <Route path="/internship" element={<InternshipSection />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/contact" element={<ContactForm />} />
 
-        <Route path="/aboutus" element={<AboutUs />} />
+
       </Routes>
+      <Chatbot />
       <Footer />
 
 

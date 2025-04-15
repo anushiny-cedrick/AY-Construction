@@ -29,7 +29,8 @@ const Footer = () => {
 
                     <div style={{ margin: '20px 0' }}>
                         <h3 style={{ margin: '0' }}>Quick Links</h3>
-                        <a href="/about" style={{ color: '#fff', margin: '0 10px' }}>About Us</a>
+                        <a href="/" style={{ color: '#fff', margin: '0 10px' }}>Home</a>
+                        <a href="/aboutus" style={{ color: '#fff', margin: '0 10px' }}>About Us</a>
                         <a href="/services" style={{ color: '#fff', margin: '0 10px' }}>Services</a>
                         <a href="/projects" style={{ color: '#fff', margin: '0 10px' }}>Projects</a>
                         <a href="/contact" style={{ color: '#fff', margin: '0 10px' }}>Contact</a>

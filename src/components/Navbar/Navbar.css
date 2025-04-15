@@ -7,8 +7,8 @@
     padding: 30px
 }
 
-.logo {
-    color: #ffffff;
+.logo img {
+    border-radius: 30px;
 }
 
 .navbar ul {
@@ -26,9 +26,37 @@
 
 }
 
-.navbar ul li a {
+/* .navbar ul li a {
     text-decoration: none;
     color: #ffffff;
     text-transform: capitalize;
+    font-size: 17px;
 
+} */
+.navbar ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.3s ease;
+}
+
+.navbar ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 100%;
 }
